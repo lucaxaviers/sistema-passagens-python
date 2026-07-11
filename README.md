@@ -1,35 +1,20 @@
-## ✈️ Sistema de Passagens Aéreas - Projeto Academico
+# sistema-passagens-python
 
-## 📌 Sobre o Sistema
-O Sistema de Passagens Aéreas foi desenvolvido como projeto educacional com o objetivo
-de simular um sistema simples de cadastro de voos, gerenciamento de passageiros e
-venda de passagens, utilizando Python e estruturas de dados como listas e dicionários.
+✈️ Projeto Acadêmico: Sistema de terminal em Python para simulação de reserva e compra de passagens aéreas.
 
-## 🧱 Estrutura do Sistema
- - Os voos são armazenados em um dicionário onde a chave é o código do voo, e o valor
-é outro dicionário com dados como origem, destino, escalas, preço e lugares disponíveis.
- - Os passageiros são organizados em um dicionário onde o CPF é a chave, e o valor
-contém nome, telefone e os voos comprados.
- - A relação entre voos e passageiros permite que um passageiro compre várias passagens
-para diferentes voos.
+---
 
-## 🛠️ Desenvolvimento
- - O sistema foi feito com Python, utilizando somente recursos nativos da linguagem.
+## 🎯 Sobre o Projeto
+Este repositório contém artefatos desenvolvidos no contexto de engenharia de software / engenharia de computação. 
+O objetivo principal deste projeto é a consolidação de conhecimentos práticos em desenvolvimento, estrutura de dados, lógica de programação e arquitetura de sistemas.
 
-## 💻 Tecnologias Utilizadas
- - Python 
- - Sem uso de bibliotecas externas
- - Executado diretamente em terminal (IDLE ou VS Code)
+## 🛠️ Tecnologias e Conceitos Aplicados
+Este projeto explora de maneira aprofundada:
+- Construção de código limpo e manutenível.
+- Separação de responsabilidades (quando aplicável).
+- Estruturação semântica e boas práticas da linguagem utilizada.
 
-## ▶️ Funcionalidades
- - Cadastro e consulta de voos
- - Venda e cancelamento de passagens
- - Listagem de passageiros por voo
- - Busca de voos por origem, destino ou código 
- - Identificação do voo com menos escalas entre duas cidades
+---
 
-## 👨‍💻 Desenvolvido Por
- - Lucas Xavier
- - Mateus Oliveira
- - Wanderley Vieira
- - Arthur Grizone
+> **Desenvolvido por Lucas Xavier.**  
+> *Foco em excelência técnica, rigor acadêmico e construção de arquiteturas modernas.*
