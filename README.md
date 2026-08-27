@@ -1,41 +1,26 @@
+<div align="center">
+
 # ✈️ Sistema de Passagens Aéreas em Python
 
-[![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![CLI](https://img.shields.io/badge/Interface-Console%20CLI-black?style=for-the-badge&logo=gnubash&logoColor=white)](https://www.python.org/)
-[![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](LICENSE)
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Estrutura-Dicion%C3%A1rios%20Aninhados-blue?style=for-the-badge" alt="Estrutura" />
+  <img src="https://img.shields.io/badge/Interface-CLI%20Menu-black?style=for-the-badge&logo=gnubash&logoColor=white" alt="CLI" />
+</p>
 
-Sistema de terminal completo para **gerenciamento, consulta, reserva e compra de passagens aéreas**, construído em **Python** utilizando estruturas de dados em memória (dicionários aninhados).
+<p align="center">
+  Sistema de terminal para cadastro de voos, consultas flexíveis, validação de assentos disponíveis e venda de passagens aéreas.
+</p>
 
 ---
+
+</div>
 
 ## 🛫 Funcionalidades
 
-- 📝 **Cadastro de Voos:** Inclusão de código do voo, cidade de origem, cidade de destino, número de escalas, preço e capacidade de assentos disponíveis.
-- 🔍 **Consultas Parametrizadas:**
-  - Busca direta pelo código identificador do voo.
-  - Busca de voos por cidade de origem.
-  - Busca de voos por cidade de destino.
-- 🎫 **Reserva e Venda de Passagens:**
-  - Validação de disponibilidade de assentos em tempo real.
-  - Decremento automático de vagas ao confirmar a compra.
-  - Registro dos dados do passageiro vinculados ao bilhete emitido.
-- 📊 **Listagem Geral:** Visualização consolidada de todos os voos ativos no sistema.
-
----
-
-## 🧩 Estrutura de Dados
-
-O sistema utiliza dicionários aninhados para associação rápida em memória ($O(1)$ para buscas por chave):
-
-```python
-voos[codigovoo] = {
-    "origem": "campinas",
-    "destino": "salvador",
-    "escalas": 0,
-    "preco": 450.00,
-    "lugares_disponiveis": 30
-}
-```
+- 📝 **Cadastro de Voos:** Código identificador, origem, destino, escalas, preço e vagas.
+- 🔍 **Consultas Multicritério:** Por código do voo, cidade de origem ou cidade de destino.
+- 🎫 **Reserva e Venda:** Verificação de lotação, decremento de assentos e registro de passageiros.
 
 ---
 
@@ -45,14 +30,15 @@ voos[codigovoo] = {
 # Clonar o repositório
 git clone https://github.com/lucaxaviers/sistema-passagens-python.git
 
-# Acessar o diretório
+# Acessar a pasta
 cd sistema-passagens-python
 
-# Executar o sistema
+# Iniciar o sistema
 python SistemaPassagem.py
 ```
 
 ---
 
-> **Desenvolvido por Lucas Rodrigues Xavier**  
-> *Projeto acadêmico com foco em estruturas de dados e regras de negócio em Python.*
+<div align="center">
+  <sub>Desenvolvido no contexto de Engenharia de Software</sub>
+</div>
